@@ -13,13 +13,15 @@ Project Arsip Akademik ini menggunakan implementasi dari kombinasi penggunaan pe
 
 ## Bagian 1 : Client-side Programming (Bobot 30%)
 ### 1.1 Membuat Halaman Web Sederhana
-Halaman web dibuat dalam file `index.php` dengan memanfaatkan JavaScript untuk memanipulasi DOM dibagian `index.php`. Hal tersebut berfungsi untuk mengubah mode tampilan halaman (dark atau light mode). Di Form Pendataan akan menampilkan form inputan dengan 6 elemen pada file `form.php` dan `editbuku.php`. Dengan menggunakan tag table pada file `index.php` akan menampilkan data yang diambil dari server.
+Halaman web dibuat dalam file `index.php` dengan memanfaatkan JavaScript untuk memanipulasi DOM dibagian `index.php`. Di Form Pendataan akan menampilkan form inputan dengan 6 elemen pada file `form.php` dan `editbuku.php`. Dengan menggunakan tag table pada file `index.php` akan menampilkan data yang diambil dari server.
 ### 1.2 Melakukan Event Handling(Penanganan peristiwa)
 Menggunakan 3 event untuk penanganan form pada file `form.js` dan mengimplementasikan JavaScript untuk membuat validasi input sebelum PHP memproses file tersebut.
 
 ## Bagian 2 : Server-side Programming (Bobot 30%)
 ### 2.1 Melakukan Pengolahan Data dengan Script PHP
 Menampilkan hasil pengolahan data ke halaman `index.php` dan menggunakan $_POST pada semua file yang digunakan(`index.php`, `form.php`, `login.php`, `register.php`, dan `editbuku.php`)
+### 2.2 Objek PHP Berbasis OOP
+Membuat objek PHP berbasis OOP dalam file `buku.php` yang terdapat beberapa method yang akan dipanggil oleh file `index.php`
 
 ## Bagian 3 : Management Database (Bobot 20%)
 ### 3.1 Membuat Tabel Database di MySQL
